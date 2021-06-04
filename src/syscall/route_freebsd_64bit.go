@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-//go:build (freebsd && amd64) || (freebsd && arm64)
-// +build freebsd,amd64 freebsd,arm64
+//go:build (freebsd && amd64) || (freebsd && arm64) || (freebsd && ppc64) ||(freebsd && ppc64le)
+// +build freebsd,amd64 freebsd,arm64 freebsd,ppc64 freebsd,ppc64le
 
 package syscall
 

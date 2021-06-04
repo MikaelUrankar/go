@@ -2,8 +2,10 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-//go:build freebsd && !amd64
+//go:build freebsd && !(amd64 || ppc64 || ppc64le)
 // +build freebsd,!amd64
+// +build freebsd,!ppc64
+// +build freebsd,!ppc64le
 
 package runtime
 

@@ -152,7 +152,7 @@ var ArchPPC64 = &Arch{
 var ArchPPC64LE = &Arch{
 	Name:      "ppc64le",
 	Family:    PPC64,
-	ByteOrder: binary.LittleEndian,
+	ByteOrder: binary.BigEndian,
 	PtrSize:   8,
 	RegSize:   8,
 	MinLC:     4,
